@@ -1,0 +1,48 @@
+@import "variables";
+@import "mixins";
+
+<<<<<<< HEAD
+/* Global styles */
+
+html {font-size: 16px; }
+
+/* Responsive typography */
+@media (min-width: 576px) { html { font-size: 100%; } }
+@media (min-width: 768px) { html { font-size: 107%; } }
+//@media (min-width: 992px) { html { font-size: 114%; } }
+@media (min-width: 1200px) { html { font-size: 114%; } }
+//@media (min-width: 1900px) { html { font-size: 121%; } }
+
+$grid-breakpoints: (
+  xxxs: 0,
+  xxs: 320px,
+  xs: 568px,
+  sm: 667px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+.font-content {
+    font-family: $font-content;
+    font-weight: 400;
+    &.thin {
+        font-weight: 100;
+    }
+    &.light {
+        font-weight: 300;
+    }
+    &.medium {
+        font-weight: 500;
+    }
+    &.bold {
+        font-weight: 700;
+    }
+    &.black {
+        font-weight: 900;
+    }
+}
+=======
+/* Global styles */
+>>>>>>> 869398200e1124829a273b70d9e1dda14305799d
